@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+
+  .outer{
+    height: 100vh;
+    
+  }
+
+  .outer .change-content{
+    height: 92%;
+    padding: 0 0.5rem;
+  }

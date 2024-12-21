@@ -1,0 +1,31 @@
+<nav class="navbar navbar-expand-sm bg-body-tertiary">
+    <div class="container-fluid">
+     
+      <a class="navbar-brand" routerLink="/">Home</a>
+  
+      
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+  
+      
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto"> 
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/login" *ngIf="!isAuthenticatd">Login</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/register" *ngIf="!isAuthenticatd">SignUp</a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/logout" *ngIf="isAuthenticatd"(click)="logout()">Logout</a>
+          </li>
+          <li class="nav-item" *ngIf="isAuthenticatd">
+            <a class="nav-link" routerLink="/verify" *ngIf="!isVerified" (click)="sendEmail()">Verify Email</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  

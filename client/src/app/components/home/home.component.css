@@ -1,0 +1,31 @@
+.outer{
+    height: 100%;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.outer .inner{
+    display: flex; 
+    height: fit-content;
+    width: 45%;
+    padding: 1rem;
+    border: 2px solid #ccc;
+    border-radius: .5rem;
+    text-align: justify;
+}
+
+@media(max-width :750px){
+    .outer .inner{
+        padding: 1rem;
+        width: 65%;
+    }
+}
+
+@media(max-width :575px){
+    .outer .inner{
+        padding: 1rem;
+        width: 95%;
+    }
+}

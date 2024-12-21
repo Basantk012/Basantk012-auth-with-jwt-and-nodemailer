@@ -1,0 +1,26 @@
+<div class="outer">
+    <div class="inner">
+        <form [formGroup]="form" (ngSubmit)="submit()">
+            
+            <div class="mb-3">
+              <label for="email" class="form-label">Email address</label>
+              <input type="email" class="form-control mb-2" formControlName="email" required>
+              <a (click)="sendOtp()" style="font-weight: 500;">Send Verification Code</a>
+            </div>
+            <div class="mb-3" *ngIf="isMailed">
+                <div class="mb-3">
+              <label for="otp" class="form-label">Verification Code</label>
+              <input type="text" class="form-control" formControlName="otp" required>
+            </div>
+            <div class="mb-3">
+                <label for="password" class="form-label">New Password</label>
+                <input type="password" class="form-control" formControlName="password" required>
+            </div>
+                <button type="submit" class="btn btn-primary" >Submit</button>
+            </div>
+            
+          </form>
+    </div>
+</div>
+
+

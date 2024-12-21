@@ -1,0 +1,12 @@
+<div class="outer">
+
+    <div class="inner" *ngIf="!isLoggedIn">
+        <h4>Hello! Welcome to our website. Please sign up or log in to access personalized features and explore more!</h4>
+
+    </div>
+    <div class="inner" *ngIf="isLoggedIn">
+        <h4>Welcome back, {{userName}}! We're glad to see you again. Explore your account and enjoy our services!</h4>
+
+    </div>
+</div>
+

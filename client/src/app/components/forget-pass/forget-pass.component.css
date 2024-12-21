@@ -1,0 +1,25 @@
+.outer{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.outer .inner{
+        margin: auto;
+        width: 60%;
+}
+
+@media(max-width :575px){
+    .outer .inner{
+        padding: 1rem;
+        width: 95%;
+    }
+}
+
+a{
+    cursor: pointer;
+    color: green;
+}
