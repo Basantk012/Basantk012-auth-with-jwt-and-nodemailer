@@ -22,10 +22,11 @@ This project demonstrates how to implement authentication in a Node.js applicati
 
 ## Setup and Installation
 
-### Prerequisites
-- Node.js (version 14 or above)
-- MongoDB instance (can be local or hosted on a service like MongoDB Atlas)
-- A working email provider (Gmail, SendGrid, etc.) for sending emails
+## Prerequisites
+- **Node.js** (version 18 LTS)
+- **Angular 14** (for frontend development)
+- **MongoDB** instance (can be local or hosted on a service like MongoDB Atlas)
+- **A working email provider** (Gmail etc.) for sending emails
 
 ### Steps to Set Up the Project
 
