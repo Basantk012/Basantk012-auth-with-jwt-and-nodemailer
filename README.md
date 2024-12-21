@@ -1,4 +1,4 @@
-# Auth with JWT and Nodemailer
+# Authentication with JWT and Nodemailer
 
 This project demonstrates how to implement authentication in a Node.js application using **JSON Web Tokens (JWT)** and **Nodemailer** for email functionalities. It includes user registration, login, token generation, and sending emails with Nodemailer.
 
