@@ -17,6 +17,8 @@ This project demonstrates how to implement authentication in a Node.js applicati
 - **bcryptjs**: Password hashing
 - **dotenv**: Managing environment variables
 - **MongoDB**: Database for storing user data
+- **Angular**: Frontend framework for building dynamic, single-page applications
+- **Bootstrap**: Frontend CSS framework for responsive design and UI components
 
 ## Setup and Installation
 
